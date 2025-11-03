@@ -6,4 +6,4 @@ A Chrome extension that filters out **irrelevant listings** on Vinted. (This is 
 
 **Installation:**
 
-Go to chrome://extensions/, then drag and drop your .crx file onto the page.
+Go to chrome://extensions/, enable Developer Mode (top right corner), then drag and drop the .crx file onto the page.
