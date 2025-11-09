@@ -1,0 +1,6 @@
+{
+  "chargeurs": ["chargeur", "usb", "cable", "cargador", "charger"],
+  "coque": ["coque", "funda", "case", "carcasa", "capa", "cover", "burga", "étui", "pochette", "handyhülle"],
+  "video_games": ["jeu", "god of war", "game", "mario", "splatoon", "call of duty", "tetris", "fifa", "fc", "sonic", "gta", "grand theft auto", "tomb raider", "far cry", "farcry", "final fantasy"],
+  "game_controller": ["manette", "controller", "dualshock"]
+}
