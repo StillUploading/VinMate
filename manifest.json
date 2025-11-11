@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "VinMate",
+  "version": "0.0.2",
+  "description": "An extension that filters out irrelevant listings on Vinted. (This is an unofficial Vinted extension. Vintweaks is not affiliated with, endorsed by, or sponsored by Vinted.)",
+  "icons": {
+    "16": "Icons/icon-16.png",
+    "32": "Icons/icon-32.png",
+    "64": "Icons/icon-64.png",
+    "128": "Icons/icon-128.png"
+  },
+  "action": {
+    "default_popup": "main.html"
+  },
+  "permissions": ["storage"],
+  "web_accessible_resources": [
+    {
+      "resources": ["Data/bannedWords.json"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.vinted.fr/*", "https://www.vinted.com/*"],
+      "js": ["Scripts/content.js"]
+    }
+  ]
+}
